@@ -1,0 +1,93 @@
+.formcontainer{
+  
+  width:300px;
+  border: 4px solid red;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px ;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  text-align:left;
+}
+button{
+  cursor: pointer;
+}
+.submit button{
+  margin:0 10px;
+  width: 80%;
+}
+.box{
+  border: 1px solid red;
+  background-color: #b7cf96;
+  margin: 10px 50px;
+  cursor: pointer;
+  background-color: #afe7dc;
+}
+.fgp{
+  text-align: left;
+  font-size: small;
+  margin: 0px;
+  color: rgb(129, 110, 238);
+  cursor: pointer;
+}
+.selection-box{
+  width: 500px;
+  border: 2px solid red;
+  margin: auto;
+  
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.scroller{
+  margin: 10px;
+  width: 50px;
+  
+  right: 10px;
+}
+.scroller.right {
+  justify-self: end; /* Moves to the right inside its grid cell */
+}
+.scroller.left {
+  justify-self: start; /* Moves to the right inside its grid cell */
+}
+.bill{
+  border: 3px solid black;
+  width: 500px;
+  margin: auto;
+  background-color: #c0eff5;
+}
+.vhb{
+  border: 2px solid;
+}
+.cyo{
+  width: 300px;
+  padding: 10px;
+  background-color: #e9eeb2;
+  margin: 20px;
+}
+.header{
+ border: 4px solid black ;
+ background-color: #b1ed67b9;
+ display: flex;
+}
+.logout{
+  /* position: relative; */
+  position: absolute;
+  right: 10px;
+  margin: 20px;
+}
+.heading{
+  width: 80%;
+}
